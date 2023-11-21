@@ -2,7 +2,7 @@ package main;
 
 public class Figures {
     public static void main(String[] args) {
-
+        System.out.println("hello");
         // Uncomment the code below when you are done implementing
 
         /*
@@ -20,4 +20,6 @@ public class Figures {
         */
 
     }
+
+
 }
