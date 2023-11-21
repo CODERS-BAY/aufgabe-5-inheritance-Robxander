@@ -1,13 +1,17 @@
 package main;
 
 import Figure.MyCircle;
+import Figure.MyRectangle;
 
 public class Figures {
     public static void main(String[] args) {
 
 
-        MyCircle circle1 = new MyCircle("circle", 5, "blue");
+        MyCircle circle1 = new MyCircle(5, "blue");
         System.out.println(circle1.getDescription());
+
+        MyRectangle rectanlge1 = new MyRectangle("recti1", 10, 10, "white");
+        System.out.println(rectanlge1.getDescripiton());
 
 
         // Uncomment the code below when you are done implementing
