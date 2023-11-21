@@ -1,8 +1,15 @@
 package main;
 
+import Figure.MyCircle;
+
 public class Figures {
     public static void main(String[] args) {
-        System.out.println("hello");
+
+
+        MyCircle circle1 = new MyCircle("circle", 5, "blue");
+        System.out.println(circle1.getDescription());
+
+
         // Uncomment the code below when you are done implementing
 
         /*
