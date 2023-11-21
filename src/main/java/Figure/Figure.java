@@ -1,6 +1,6 @@
 package Figure;
 
-import interfaceFigure.IFigure;
+import interfaceCalculate.IFigure;
 
 abstract public class Figure implements IFigure {
 private String figureName;

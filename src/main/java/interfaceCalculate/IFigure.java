@@ -1,4 +1,4 @@
-package interfaceFigure;
+package interfaceCalculate;
 
 public interface IFigure {
 
